@@ -1,0 +1,69 @@
+.my-nav,.my-con,.lon,body{
+    background-color: #1E202B;
+
+}
+.my-home{
+    border: 1px solid #009AD8;
+    border-radius: 30px;
+}
+.my-link{
+    border: none;
+    border-radius: 30px;  
+    color: white;
+}
+.my-link:hover{
+    border: 1px solid #009AD8;
+    border-radius: 30px; 
+    color: #009AD8;
+}
+body{
+background-image: url(../images/banner.png);
+background-repeat: no-repeat;
+background-attachment: scroll;
+background-position: center center;
+
+}
+.font{
+    font-size: 80px;
+    font-weight: bold;
+}
+.color{
+    color: #009AD8;
+}
+.sec-col{
+    background-color: #323544;
+    color: white;
+}
+.thi-col{
+    background-color: #262936;
+    color: white;
+}
+.p{
+    font-size: 25px;
+    font-weight: bold;
+}
+.my-btn{
+    background-color: #009AD8;
+}
+.hh{
+    color: white !important;
+}
+.justify{
+    justify-self: start;
+}
+.self{
+    justify-self: end;
+} 
+.lon::placeholder{
+    color: white;
+}
+.lon{
+    border: #1E202B;
+}
+.cardy .card{
+    border: none!important ;
+
+}
+.muted{
+    color: #9496A0;
+}

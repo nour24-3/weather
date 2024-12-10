@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <nav class="navbar my-nav navbar-expand-lg py-5  ">
+        <div class="container my-con  ">
+        <a class="navbar-brand  " href="#">
+            <img src="./images/logo@2x.png" width="70px" alt="logo">
+            
+
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse  " id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 p-2 ">
+                <li class="nav-item m-2">
+                    <a class="nav-link my-link py-0 px-4" href="#">Home</a>
+                </li>
+            <li class="nav-item m-2">
+                <a class="nav-link my-link py-0 px-4" href="#">News</a>
+            </li>
+            <li class="nav-item m-2">
+                <a class="nav-link my-link py-0 px-4" href="#">Live cameras</a>
+            </li>
+            <li class="nav-item m-2">
+                <a class="nav-link my-link py-0 px-4" href="#">Photos</a>
+            </li>
+            <li class="nav-item m-2">
+                <a class="nav-link my-link py-0 px-4" href="#">Contact</a>
+            </li>
+            
+            </ul>
+        
+        </div>
+        </div>
+    </nav>
+
+    <main>
+        <section>
+            <div class=" container  d-flex my-5 w-75 m-auto" >
+    
+                <input id="search" class="form-control lon rounded-5 "  list="datalistOptions" id="exampleDataList" placeholder="Find Your Location...">
+
+                <button type="button" class="btn my-btn btn-primary px-5 py-3 rounded-5">Find</button>
+    
+            </div>
+            
+        </section>
+        <section class="container w-75 m-auto" id="cardData">
+            <div class="card-group cardy ">
+                <div class="card " >
+                
+               <div class="card-body sec-col">
+                    <div class="d-flex justify-content-between muted fw-bold">
+                        <span class="justify">Wednesday</span>
+                        <span class="self">4December</span>
+                    </div>
+                    
+
+
+                    <hr>
+                    <p class="muted fw-bold">
+                        Cairo 
+                    </p>
+                    <p class="font">21.4oC</p>
+                    <div>
+                        <img src="./images/113.png" width="100px" alt="sunny">
+                    </div>
+                <span class="color">sunny</span>
+                <div class="d-flex justify-content-around muted" >
+                    <span > <i class="fa-solid fa-umbrella"></i> 20%</span>
+                    <span><i class="fa-solid fa-wind"></i> 18km/h</span>
+                    <span><i class="fa-regular fa-compass"></i> East</span>
+
+                </div>
+                </div>
+                </div>
+                <div class="card">
+                
+                <div class="card-body text-center thi-col">
+                    <span class="text-center muted fw-bold">Thursday</span>
+                    <hr>
+                <div class="py-4">
+                    <img src="./images/113.png" alt="sunny">
+                </div>
+                <div>
+                    <span class="p">21.6oC</span>
+                    <p>14o</p>
+                    <p class="color">sunny</p>
+                </div>
+                </div>
+                </div>
+                <div class="card">
+                
+                <div class="card-body text-center sec-col">
+                    <span class="text-center muted fw-bold">Friday</span>
+                    <hr>
+                    <div class="py-4">
+                        <img src="./images/116.png" alt="sunny">
+                    </div>
+                    <div>
+                        <span class="p">23.2oC</span>
+                        <p>15.3o</p>
+                        <p class="color">Partly Cloudy</p>
+                    </div>
+                </div> 
+                </div>
+            </div>
+        </section>
+    </main>
+    
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>
